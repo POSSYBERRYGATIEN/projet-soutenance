@@ -1,0 +1,35 @@
+/* Header.css */
+
+/* Style de la navbar */
+.navbar {
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Marque (logo) */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #ffffff !important;
+}
+
+/* Liens de navigation */
+.nav-link {
+  color: #ffffff !important;
+  margin-left: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #f0ad4e !important; /* Jaune/orange */
+}
+
+/* Pour le bouton toggler mobile */
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
