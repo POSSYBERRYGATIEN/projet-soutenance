@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './home.css'; // Assure-toi que ce fichier existe
+import './Home.css'; // Assure-toi que ce fichier existe
 
 const Home = () => {
   return (
