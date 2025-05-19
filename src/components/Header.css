@@ -3,19 +3,19 @@
 /* Style de la navbar */
 .navbar {
   padding: 1rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(201, 17, 130, 0.1);
 }
 
 /* Marque (logo) */
 .navbar-brand {
   font-weight: bold;
   font-size: 1.5rem;
-  color: #ffffff !important;
+  color: #cdf007 !important;
 }
 
 /* Liens de navigation */
 .nav-link {
-  color: #ffffff !important;
+  color: #0af029 !important;
   margin-left: 1rem;
   transition: color 0.3s ease;
 }

@@ -1,0 +1,45 @@
+footer {
+  background-color: #343a40;
+  color: #df2626;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+footer .container {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap; /* Permet de s'adapter aux petits écrans */
+  justify-content: center; /* Centre le contenu */
+  align-items: center;
+  gap: 10px; /* Espace entre les éléments */
+}
+
+footer p {
+  margin: 0;
+  line-height: 1.5;
+  white-space: nowrap; /* Évite la création de nouvelles lignes */
+}
+
+footer a {
+  color: #398fe4;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #ffc107;
+}
+
+/* Responsive sur mobile */
+@media (max-width: 768px) {
+  footer .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer p {
+    white-space: normal; /* Sur mobile, les lignes peuvent se diviser */
+  }
+}

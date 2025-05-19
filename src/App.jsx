@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Services from './pages/Services';
-import About from './pages/about';
+import About from './pages/about';  // <-- Correction ici
 import Testimonials from './pages/Testimonials';
 import Contact from './pages/Contact';
 import QuoteRequest from './pages/QuoteRequest';

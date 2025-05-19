@@ -1,0 +1,60 @@
+/* Conteneur principal pour les témoignages */
+.testimonials-container {
+  width: 100%;
+  max-width: 1500px; /* Largeur cohérente avec les autres pages */
+  margin: 40px auto;
+  padding: 30px 20px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Titre de la section */
+.testimonials-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 25px;
+  color: #222;
+  border-bottom: 3px solid #646cff;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Carte de chaque témoignage */
+.testimonial-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1.5px solid #ddd;
+  border-radius: 12px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-bottom: 15px;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Effet au survol */
+.testimonial-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Nom de l'auteur */
+.testimonial-card strong {
+  font-size: 1.1rem;
+  color: #646cff;
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* Texte du témoignage */
+.testimonial-card p {
+  font-size: 1rem;
+  color: #555;
+  text-align: justify;
+}

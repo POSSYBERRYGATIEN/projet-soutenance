@@ -5,7 +5,7 @@ import './Header.css';
 const Header = () => (
   <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
     <div className="container-fluid">
-      <Link className="navbar-brand" to="/">Sécurité Pro</Link>
+      <Link className="navbar-brand" to="/">Mon Entreprise</Link>
       <button
         className="navbar-toggler"
         type="button"

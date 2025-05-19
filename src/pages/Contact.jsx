@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Contact.css'
 
 const Contact = () => {
   const [form, setForm] = useState({ name: '', email: '', message: '' });
@@ -32,7 +33,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="container mt-5">
+    <div className="home-container">
       <h2>Contactez-nous</h2>
       <form onSubmit={handleSubmit} className="mt-3">
         <div className="mb-3">
