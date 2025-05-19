@@ -11,6 +11,9 @@ import QuoteRequest from './pages/QuoteRequest';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
+// Bootstrap CSS (déjà chargé ici)
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function App() {
   // Vérification WebGL
   useEffect(() => {
