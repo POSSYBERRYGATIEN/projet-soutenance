@@ -1,4 +1,9 @@
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-WebGL-Enabled = "true"
+[build]
+  command = "npm run build"
+  publish = "dist"
+  functions = "netlify/functions" # Dossier des fonctions serverless
+
+[[redirects]]
+  from = "/api/*"               # Redirection pour les API
+  to = "/.netlify/functions/:splat"
+  status = 200
